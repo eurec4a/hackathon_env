@@ -13,4 +13,5 @@ dependencies:
     - pydap
     - pyyaml
     - typhon
+    - requests
     - nbgitpuller
