@@ -8,10 +8,11 @@ dependencies:
   - pip
   - pip:
     - xarray
+    - requests
+    - aiohttp
     - intake
-    - intake-xarray
+    - git+https://github.com/intake/intake-xarray@master#egg=intake-xarray
     - pydap
     - pyyaml
     - typhon
-    - requests
     - nbgitpuller
