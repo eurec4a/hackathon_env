@@ -1,6 +1,16 @@
 channels:
   - conda-forge
 dependencies:
+  - numpy
+  - scipy
+  - matplotlib
+  - Cartopy
   - pip
   - pip:
+    - xarray
+    - intake
+    - intake-xarray
+    - pydap
+    - pyyaml
+    - typhon
     - nbgitpuller
